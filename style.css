@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./assets/code.jpg");
+    background-size:cover;
+    backgroud-repeat:no-repeat;
+    background-attachment:fixed;
+    
+}
+
+.head{
+    opacity:1;
+    background-color: white;
+    margin-bottom: 0;
+    padding-top: 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    border: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 0;
+    justify-content:center;
+    
+}
+li {
+  float: left;
+  margin: 0;
+  display:inline;
+  
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: black;
+  margin: 0;
+  
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+.btnss, button{
+  text-align: center;
+  align-items: center;
+  padding: 2px;
+  background-color:black;
+  border: none;
+  color: white;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  justify-content:center;
+  border-radius: 8px;
+}
+.homeHead {
+/*
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 120, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+font-family: 'Montserrat', sans-serif;
+}
+.headsec{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+}
+.headthr{
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+}
+.container{
+    list-style-type: square;
+    padding-top: 0px;
+    margin-left: 10px;
+}
+.pp{
+    
+    padding-bottom: 1px;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.parent{
+ 
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color:white;
+    opacity:0.6;
+}
+.para{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+}
+.parentA{
+    font-family: 'Noto Sans', sans-serif;
+    background-color:white;
+    opacity:0.6;
+}
+#goofy{
+    margin-left: 10px;
+}
+.cont{
+    margin-left: 20px;
+    margin-top: 2px;
+    
+}
+.buttons {
+    border-width: medium;
+    overflow: auto;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin-bottom: 10px;
+    align-content: center;
+    align-self: center;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border-radius: 42px;
+    width: 30%;
+    text-decoration:none;
+}
+.buttonss {
+    
+    border-width: medium;
+    overflow: auto;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin-bottom: 10px;
+    align-content: center;
+    align-self: center;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border-radius: 42px;
+    width: 30%;
+    text-decoration:none;
+}
+.buttons:hover{
+    background-color: black;
+    color: white;
+    
+}
+.buttonss:hover{
+    background-color: black;
+    color: white;
+}
+#active{
+    
+    background-color: white;
+    color: black;
+    padding: 10px;
+ 
+}
+
